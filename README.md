@@ -1,6 +1,5 @@
 # Deep Stacked Ensemble Recommender
-
-Rasaq Otunba, Raimi A. Rufai, and Jessica Lin. 2019. Deep Stacked EnsembleRecommender. InProceedings of 31st International Conference on Scientificand Statistical Database Management, Santa Cruz, CA, USA, July 23–25, 2019. 
+Rasaq Otunba, Raimi A. Rufai, and Jessica Lin. Deep Stacked Ensemble Recommender. In Proceedings of 31st International Conference on Scientific and Statistical Database Management, Santa Cruz, CA, USA, July 23–25, 2019. 
 
 4 recommender systems implemented: DSER, NeuMF, BPR, ITEMPOP
 
