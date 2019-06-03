@@ -107,7 +107,7 @@ if __name__ == '__main__':
         itempop_recommender.run(metric, method, 1, evaluation_threads, dataset, path, start_fold, num_folds,verbose)
     elif (method == 'neumf'):
         print 'USING NeuMF'     
-        deeprecs.run(num_negatives, metric,method, layers,reg_layers, decay, batch_size, learning_rate, epochs, evaluation_threads, dataset, path, start_fold, num_folds,verbose)
+        deeprecs.run(dropout_rate,num_negatives, metric,method, layers,reg_layers, decay, batch_size, learning_rate, epochs, evaluation_threads, dataset, path, start_fold, num_folds,verbose)
     elif (method == 'dser'):
         print 'USING DSER'     
         deeprecs.run(dropout_rate, num_negatives,metric,method, layers,reg_layers, decay, batch_size, learning_rate, epochs, evaluation_threads, dataset, path, start_fold, num_folds,verbose)
