@@ -83,5 +83,5 @@ tflearn==0.3.2
 Theano==0.9.0
 urllib3>=1.24.2
 virtualenv==15.1.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 xattr==0.6.4
